@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poltawski Nowy', serif;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 60%;
+    flex-direction: column;
+    background-color: #000000;
+    color: #FFF;
+    padding: 2rem 2rem;
+    font-weight: bolder;
+
+}
+.main-title h1{
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 40%;
+    width: 50rem;
+    height: 50rem;
+    overflow: hidden;
+}
+.first-img{
+    width: 50rem;
+    height: 50rem;
+    background-position: center;
+    min-width: 100%;
+}
+span{
+   color: #F535AA ;
+   font-size: 4rem;
+}
+.desc .quote{
+    font-family: 'Poltawski Nowy', serif;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+    flex-basis: 60%;
+    background-color: #000000;
+    color: #FFF;
+}
+.desc h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    background-color: antiquewhite;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a span{
+    color: #000000;
+}
+.icon{
+    font-size: 1.75rem;
+    margin-right: 1.75rem;
+    cursor: pointer;
+}
+.icon:hover{
+    transform: translateY(20%);
+}
+.footer h6{
+    font-weight: 700;
+}
+@media only screen and (max-width: 676px) {
+    .container1{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    .img1{
+        width: 80rem;
+    }
+    .main-title{
+        display: flex;
+        width: 80rem;
+        flex-basis: 0%;
+    }
+    .desc{
+        display: flex;
+        width: 80rem;
+        flex-basis: 0%;
+    }
+    .container2{
+        width: 60rem;
+    }
+    .footer{
+        width: 80rem;
+    }
+}
